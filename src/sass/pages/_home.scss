@@ -1,8 +1,28 @@
-.home  {
+.home {
   width: 100%;
-  &__poster  {
+  &__poster {
     img {
       width: 100vw;
+      height: 86vh;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    color: #0f1120;
+    margin-top: 5vh;
+    font-size: 70px;
+  }
+
+  &__body {
+    margin-top: 5vh;
+    font-size: 30px;
+    text-align: center;
+    margin: 5rem;
+
+    .btn {
+      margin-top: 2rem;
+      font-size: 30px;
     }
   }
 }
